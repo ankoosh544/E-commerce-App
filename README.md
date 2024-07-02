@@ -50,6 +50,11 @@ lib/
 │ │ ├── product_bloc.dart
 │ │ ├── product_event.dart
 │ │ └── product_state.dart
+|
+├── repositories/
+| ├──cart_repository.dart
+| ├──product_repository.dart
+|
 ├── models/
 │ ├── category.dart
 │ ├── product.dart
@@ -67,10 +72,10 @@ lib/
 │ └── product_row.dart
 └── main.dart
 
-Bloc Architecture
+## Bloc Architecture
 
-The project uses Flutter BLoC for state management. The BLoC pattern is used to separate business logic from UI components.
+    The project uses Flutter BLoC for state management. The BLoC pattern is used to separate business logic from UI components.
 
-CartBloc: Manages the state and events related to the shopping cart.
-ProductBloc: Manages the state and events related to product listings.
-ThemeBloc: Manages the theme state, allowing switching between light, dark, and custom themes.
+    CartBloc: Manages the state and events related to the shopping cart.
+    ProductBloc: Manages the state and events related to product listings.
+    ThemeBloc: Manages the theme state, allowing switching between light, dark, and custom themes.
